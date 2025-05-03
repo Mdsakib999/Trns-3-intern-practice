@@ -1,24 +1,11 @@
-import { useState } from "react";
+import { RouterProvider } from "react-router-dom";
 import "./App.css";
-import { Outlet } from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
+import { router } from "./routs";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="">
-      {/* Nav bar */}
-<Navbar></Navbar>
-
-      {/* Children component practice */}
-      <div className="min-h-[calc(100vh-196px)] ">
-        <Outlet />
-      </div>
-
-      {/* Footer */}
-<Footer></Footer>
+    <div>
+      <RouterProvider router={router} />
     </div>
   );
 }
