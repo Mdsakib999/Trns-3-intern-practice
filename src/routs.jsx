@@ -1,16 +1,30 @@
 import { createBrowserRouter } from "react-router-dom";
-
-import Services from "./Pages/Services/Services";
-import Main from "./Components/Layouts/Main";
+import App from "./App";
+import Home from "./Pages/Home/Home";
+import Services from "./pages/Services/Services";
+import About from "./pages/About/About";
+import FAQ from "./pages/FAQ/FAQ";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main />,
+    element: <App></App>,
     children: [
       {
         path: "/",
-        element: <Services></Services>,
+        element: <Home></Home>,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/services",
+        element: <Services />,
+      },
+      {
+        path: "/faq",
+        element: <FAQ />,
       },
     ],
   },

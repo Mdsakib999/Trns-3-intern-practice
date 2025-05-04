@@ -1,4 +1,4 @@
-import ContainerIamge from "../assets/Container.png";
+import ContainerIamge from "/assets/Container.png";
 
 function OurProcess() {
   return (

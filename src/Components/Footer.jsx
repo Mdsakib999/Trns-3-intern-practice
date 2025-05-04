@@ -1,0 +1,35 @@
+import logo from "/assets/Logo.png";
+import { Link } from "react-router-dom";
+
+const Footer = () => {
+  const menuItems = [
+    { name: "About", path: "/about" },
+    { name: "Contact", path: "/contact" },
+    { name: "Logistics", path: "/logistics" },
+    { name: "Services", path: "/services" },
+  ];
+
+  return (
+    <footer className="border-b pt-8 pb-4 text-center my-10">
+      {/* Logo */}
+      <div className="flex justify-center mb-8">
+        <img src={logo} alt="Logo" className="h-6" />
+      </div>
+
+      {/* Navigation Links */}
+      <nav className="flex justify-center space-x-8 mb-4">
+        {menuItems.map((item) => (
+          <Link
+            key={item.name}
+            to={item.path}
+            className="text-gray-800 hover:text-orange-500 transition hover:font-semibold"
+          >
+            {item.name}
+          </Link>
+        ))}
+      </nav>
+    </footer>
+  );
+};
+
+export default Footer;

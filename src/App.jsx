@@ -1,11 +1,21 @@
-import { RouterProvider } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import "./App.css";
-import { router } from "./routs";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div>
-      <RouterProvider router={router} />
+    <div className="container mx-auto mt-7">
+      {/* Nav bar */}
+      <Navbar></Navbar>
+
+      {/* Children component practice */}
+      <div className="min-h-[calc(100vh-196px)] ">
+        <Outlet />
+      </div>
+
+      {/* Footer */}
+      <Footer></Footer>
     </div>
   );
 }
