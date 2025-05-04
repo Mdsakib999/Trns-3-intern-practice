@@ -14,7 +14,7 @@ const Review = () => {
 	return (
 		<div className="py-20 relative">
 			<Title title={"CUSTOMER REVIEW"} />
-			<h1 className="text-5xl font-semibold mt-5 mb-12">
+			<h1 className="text-5xl text-gray-800 font-semibold mt-5 mb-12">
 				<p>Here’s the value we’ve brought</p>
 				<p>to our clients.</p>
 			</h1>
