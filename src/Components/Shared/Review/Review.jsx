@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import Title from "../../../pages/About/Title";
+import Title from "../Title";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
