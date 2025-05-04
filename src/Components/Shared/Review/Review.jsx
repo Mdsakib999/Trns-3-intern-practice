@@ -98,7 +98,7 @@ const Review = () => {
           <div
             className="bg-black text-white w-full h-60 p-4 rounded-xl"
             data-aos="fade-left"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
           >
             <p>
               Leverage agile frameworks to provide a robust synopsis for
@@ -111,7 +111,7 @@ const Review = () => {
           <div
             className="bg-black w-full h-60 rounded-xl"
             data-aos="fade-left"
-            data-aos-duration="5000"
+            data-aos-duration="3000"
           >
             <img
               className="h-60 w-full object-cover rounded-xl"

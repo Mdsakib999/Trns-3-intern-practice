@@ -7,18 +7,12 @@ import Review from "../../Components/Shared/Review/Review";
 const Home = () => {
   return (
     <div>
-      <div data-aos="flip-left">
-        <Banner />
-      </div>
-      <div data-aos="fade-left">
-        <About />
-      </div>
+      <Banner />
+      <About />
       <div data-aos="fade-right">
         <Services />
       </div>
-      <div data-aos="fade-left">
-        <Review />
-      </div>
+      <Review />
       <div data-aos="fade-right">
         <Opportunities />
       </div>
