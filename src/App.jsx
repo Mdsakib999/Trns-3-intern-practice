@@ -4,7 +4,6 @@ import Navbar from "./Components/Shared/Navbar/Navbar";
 import Footer from "./Components/Shared/Footer/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
-<<<<<<< HEAD
 
 function App() {
   useEffect(() => {
@@ -13,22 +12,6 @@ function App() {
       offset: 500,
       once: false,
     });
-=======
-import { useEffect } from "react";
-
-function App() {
-	useEffect(() => {
-		AOS.init({
-			duration: 3000, // Optional: set animation duration
-			once: false, // Optional: animate only once
-		});
-	}, []);
-
-	return (
-		<div data-aos="zoom-in" className="container mx-auto mt-7">
-			{/* Nav bar */}
-			<Navbar />
->>>>>>> 7186ac3f4007b9bea2ad09d761e5e7a4f9be8ac2
 
     AOS.refresh();
   }, []);
