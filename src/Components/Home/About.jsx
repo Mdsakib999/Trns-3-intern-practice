@@ -2,7 +2,7 @@ import { IoShieldCheckmarkOutline } from "react-icons/io5";
 import { TbArrowZigZag } from "react-icons/tb";
 import { CiStar } from "react-icons/ci";
 import service from "/assets/vector1.png";
-import Title from "../Title";
+import Title from "../../pages/About/Title";
 
 const About = () => {
   return (
