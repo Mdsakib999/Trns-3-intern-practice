@@ -13,8 +13,8 @@ const Banner = () => {
 				<img src={bannerImage} alt="" />
 
 				{/* Bottom bar */}
-				<div className="absolute -mt-24 left-0 right-0">
-					<div className="flex items-center justify-between text-white bg-black px-10 py-4 text-3xl">
+				<div className="absolute lg:-mt-24 left-0 right-0">
+					<div className="flex items-center justify-between lg::flex-wrap text-white bg-black px-10 py-4 text-3xl">
 						<p className="font-extrabold">AIR</p>
 						<p className="border h-16 text-gray-400"> </p>
 						<p className="font-extrabold">ROAD</p>
