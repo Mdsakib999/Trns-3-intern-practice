@@ -1,11 +1,13 @@
 import React from "react";
-import Banner from "../../Components/Banner";
-import Services from "../../Components/Services";
+import Banner from "../../Components/Home/Banner";
+import About from "../../Components/Home/About";
+import Services from "../../Components/Home/Services";
 
 const Home = () => {
 	return (
 		<div>
 			<Banner />
+			<About />
 			<Services />
 		</div>
 	);
