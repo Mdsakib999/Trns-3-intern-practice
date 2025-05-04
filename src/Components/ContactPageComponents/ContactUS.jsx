@@ -1,13 +1,11 @@
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6";
 import { IoIosSend } from "react-icons/io";
+import Title from "../Shared/Title";
 function ContactUS() {
   return (
     <div className="mt-[100px]">
       <div className="py-5">
-        <div className="flex items-center gap-2 ">
-          <span className="w-3 h-3 bg-red-500 rounded-full"></span>
-          <p className="uppercase text-sm opacity-50">Contact Us</p>
-        </div>
+        <Title title={"Contact Us"} />
       </div>
       <div className="flex justify-between items-center">
         {/* heading */}

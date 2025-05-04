@@ -1,13 +1,11 @@
+import Title from "../Shared/Title";
 import ContainerIamge from "/assets/Container.png";
 
 function OurProcess() {
   return (
     <div className="bg-[#F4F4F4]">
       <div className="mx-10 py-5">
-        <div className="flex items-center gap-2 mb-4 ">
-          <span className="w-3 h-3 bg-red-500 rounded-full"></span>
-          <p className="uppercase text-sm opacity-50">Our Process</p>
-        </div>
+        <Title title={"OUR PROCESS"} />
         <h1 className="text-4xl font-semibold my-12">Shipping and Logistic</h1>
         <div className="flex justify-between items-center">
           <div className="flex flex-col gap-14 w-1/2">
