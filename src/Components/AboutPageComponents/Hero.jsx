@@ -7,10 +7,12 @@ function Hero() {
       <div className="mx-4 sm:mx-6 md:mx-8 lg:mx-10 py-4 sm:py-5">
         <Title title={"why choose us"} />
 
-        {/* Hero section - responsive flex column on mobile, row on larger screens */}
         <div className="flex flex-col lg:flex-row gap-8 sm:gap-12 lg:gap-20 xl:gap-40 mt-6 sm:mt-8 md:mt-10">
           {/* Left content */}
-          <div className="flex flex-col gap-6 sm:gap-10 lg:gap-16 xl:gap-20 w-full lg:w-1/2">
+          <div
+            className="flex flex-col gap-6 sm:gap-10 lg:gap-16 xl:gap-20 w-full lg:w-1/2"
+            data-aos="fade-left"
+          >
             <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-semibold leading-14">
               <p>Seamless Service</p>
               <p>for a Connected</p>
@@ -24,7 +26,7 @@ function Hero() {
           </div>
 
           {/* Hero image - responsive width */}
-          <div className="w-full lg:w-1/2 mt-6 lg:mt-0">
+          <div className="w-full lg:w-1/2 mt-6 lg:mt-0" data-aos="fade-right">
             <img
               src={ContainerIamge}
               alt="Container Image"
@@ -37,7 +39,10 @@ function Hero() {
       {/* Cards section - responsive grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 p-4 sm:p-6 mt-8 sm:mt-12 lg:mt-16">
         {/* Card 1 */}
-        <div className="relative bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 shadow-sm">
+        <div
+          className="relative bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 shadow-sm"
+          data-aos="fade-left"
+        >
           <div className="absolute -top-3 left-4 bg-orange-500 text-white rounded-md px-3 py-1 text-sm font-semibold shadow-md">
             1.
           </div>
@@ -51,7 +56,10 @@ function Hero() {
         </div>
 
         {/* Card 2 */}
-        <div className="relative bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 shadow-sm">
+        <div
+          className="relative bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 shadow-sm"
+          data-aos="fade-left"
+        >
           <div className="absolute -top-3 left-4 bg-orange-500 text-white rounded-md px-3 py-1 text-sm font-semibold shadow-md">
             2.
           </div>
@@ -65,7 +73,10 @@ function Hero() {
         </div>
 
         {/* Card 3 */}
-        <div className="relative bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 shadow-sm">
+        <div
+          className="relative bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 shadow-sm"
+          data-aos="fade-left"
+        >
           <div className="absolute -top-3 left-4 bg-orange-500 text-white rounded-md px-3 py-1 text-sm font-semibold shadow-md">
             3.
           </div>
