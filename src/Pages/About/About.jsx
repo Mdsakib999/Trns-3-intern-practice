@@ -6,8 +6,12 @@ function About() {
   return (
     <div>
       <Hero />
-      <Review />
-      <Opportunities />
+      <div data-aos="fade-right">
+        <Review />
+      </div>
+      <div data-aos="fade-left">
+        <Opportunities />
+      </div>
     </div>
   );
 }
