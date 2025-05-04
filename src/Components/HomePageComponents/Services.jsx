@@ -4,7 +4,10 @@ import { RiContactsBookUploadLine } from "react-icons/ri";
 
 const Services = () => {
 	return (
-		<div className="bg-[#F3F2F5] mt-44 flex flex-col items-center px-5 md:px-10 lg:px-16 py-20">
+		<div
+			data-aos="fade-right"
+			className="bg-[#F3F2F5] mt-44 flex flex-col items-center px-5 md:px-10 lg:px-16 py-20"
+		>
 			<Title title={"OUR SERVICES"} />
 			<h1 className="text-4xl md:text-5xl text-[#293037] text-center font-semibold mt-3">
 				<p>Everything You Need</p>
