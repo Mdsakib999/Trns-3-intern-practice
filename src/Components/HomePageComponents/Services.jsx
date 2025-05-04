@@ -1,4 +1,4 @@
-import Title from "../../pages/About/Title";
+import Title from "../Shared/Title";
 import { FaRegCheckCircle, FaBox } from "react-icons/fa";
 import { RiContactsBookUploadLine } from "react-icons/ri";
 

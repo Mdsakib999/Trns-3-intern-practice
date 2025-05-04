@@ -1,5 +1,5 @@
-import OurProcess from "../../Components/ServiceComponents/OurProcess";
-import Banner from "../../Components/ServiceComponents/Banner";
+import OurProcess from "../../Components/ServicePageComponents/OurProcess";
+import Banner from "../../Components/ServicePageComponents/Banner";
 import Opportunities from "../../Components/Shared/Opportunities/Opportunities";
 import Review from "../../Components/Shared/Review/Review";
 

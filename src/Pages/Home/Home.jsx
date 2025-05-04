@@ -1,6 +1,6 @@
-import Banner from "../../Components/Home/Banner";
-import About from "../../Components/Home/About";
-import Services from "../../Components/Home/Services";
+import Banner from "../../Components/HomePageComponents/Banner";
+import About from "../../Components/HomePageComponents/About";
+import Services from "../../Components/HomePageComponents/Services";
 import Opportunities from "../../Components/Shared/Opportunities/Opportunities";
 import Review from "../../Components/Shared/Review/Review";
 
