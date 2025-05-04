@@ -1,5 +1,5 @@
 import logo from "/assets/Logo.png";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Navbar = () => {
@@ -36,12 +36,15 @@ const Navbar = () => {
       </div>
       {/* contact button */}
       <div>
-        <button className="flex items-center gap-x-2 border p-2 rounded-3xl">
-          <span className="font-semibold">Contact Now</span>
-          <span className="bg-orange-500 rounded-full p-1 text-white">
-            <MdOutlineArrowOutward />
-          </span>
-        </button>
+        <Link to="/contact">
+          {" "}
+          <button className="flex items-center gap-x-2 border p-2 rounded-3xl hover:bg-orange-500 hover:text-white transition-all duration-500 ease-in-out">
+            <span className="font-semibold">Contact Now</span>
+            <span className="bg-orange-500 rounded-full p-1 text-white">
+              <MdOutlineArrowOutward />
+            </span>
+          </button>
+        </Link>
       </div>
     </div>
   );
