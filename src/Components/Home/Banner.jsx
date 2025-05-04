@@ -2,7 +2,7 @@ import bannerImage from "/assets/cargo.png";
 
 const Banner = () => {
 	return (
-		<div className="my-10">
+		<div className="w-full my-10">
 			<div className="relative container mx-auto">
 				{/* Heading + Image */}
 				<h1 className="absolute font-extrabold text-6xl space-y-3">

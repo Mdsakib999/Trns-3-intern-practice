@@ -4,7 +4,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Navbar = () => {
 	return (
-		<div className="flex items-center justify-between">
+		<div className="container mx-auto  flex items-center justify-between">
 			{/* logo */}
 			<div className="w-20">
 				<img src={logo} alt="" />
