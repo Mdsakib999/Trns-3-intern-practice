@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState } from "react";
-import Title from "../Title";
+import { Title } from "../Title";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -7,9 +7,15 @@ import "swiper/css/navigation";
 import girl from "/assets/girl.png";
 import boy from "/assets/boy.png";
 
+<<<<<<< HEAD
+export const Review = () => {
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
+=======
 const Review = () => {
 	const prevRef = useRef(null);
 	const nextRef = useRef(null);
+>>>>>>> 6f1a5d5c3a5f88370aaccb950ce93dab61f46245
 
 	// State to handle responsive slidesPerView
 	const [slidesPerView, setSlidesPerView] = useState(4);
@@ -156,5 +162,3 @@ const Review = () => {
 		</div>
 	);
 };
-
-export default Review;
