@@ -4,3 +4,11 @@
 @theme {
 	--font-inter: "Inter";
 }
+
+body {
+	overflow-x: hidden;
+}
+
+.page-wrapper {
+	overflow-x: hidden;
+}

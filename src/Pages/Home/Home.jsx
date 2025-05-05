@@ -5,19 +5,19 @@ import Opportunities from "../../Components/Shared/Opportunities/Opportunities";
 import Review from "../../Components/Shared/Review/Review";
 
 const Home = () => {
-  return (
-    <div>
-      <Banner />
-      <About />
-      <div data-aos="fade-right">
-        <Services />
-      </div>
-      <Review />
-      <div data-aos="fade-right">
-        <Opportunities />
-      </div>
-    </div>
-  );
+	return (
+		<div>
+			<Banner />
+			<About />
+			<div data-aos="fade-right">
+				<Services />
+			</div>
+			<Review />
+			<div data-aos="fade-right">
+				<Opportunities />
+			</div>
+		</div>
+	);
 };
 
 export default Home;

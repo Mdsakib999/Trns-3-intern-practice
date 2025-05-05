@@ -2,34 +2,34 @@ import logo from "/assets/Logo.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const menuItems = [
-    { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
-    { name: "Logistics", path: "/logistics" },
-    { name: "Services", path: "/services" },
-  ];
+	const menuItems = [
+		{ name: "About", path: "/about" },
+		{ name: "Contact", path: "/contact" },
+		{ name: "Logistics", path: "#" },
+		{ name: "Services", path: "/services" },
+	];
 
-  return (
-    <footer className="border-b border-gray-400 pt-8 pb-4 text-center my-10">
-      {/* Logo */}
-      <div className="flex justify-center mb-8">
-        <img src={logo} alt="Logo" className="h-6" />
-      </div>
+	return (
+		<footer className="border-b border-gray-400 pt-8 pb-4 text-center my-10">
+			{/* Logo */}
+			<div className="flex justify-center mb-8">
+				<img src={logo} alt="Logo" className="h-6" />
+			</div>
 
-      {/* Navigation Links */}
-      <nav className="flex flex-col md:flex-row md:justify-center md:space-x-8 mb-4 gap-5">
-        {menuItems.map((item) => (
-          <Link
-            key={item.name}
-            to={item.path}
-            className="text-gray-900 hover:text-orange-500 transition hover:font-semibold"
-          >
-            {item.name}
-          </Link>
-        ))}
-      </nav>
-    </footer>
-  );
+			{/* Navigation Links */}
+			<nav className="flex flex-col md:flex-row md:justify-center md:space-x-8 mb-4 gap-5">
+				{menuItems.map((item) => (
+					<Link
+						key={item.name}
+						to={item.path}
+						className="text-gray-900 hover:text-orange-500 transition hover:font-semibold"
+					>
+						{item.name}
+					</Link>
+				))}
+			</nav>
+		</footer>
+	);
 };
 
 export default Footer;
