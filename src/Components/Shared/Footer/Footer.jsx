@@ -1,23 +1,13 @@
 import logo from "/assets/Logo.png";
 import { Link } from "react-router-dom";
 
-<<<<<<< HEAD
 export const Footer = () => {
-  const menuItems = [
-    { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
-    { name: "Logistics", path: "/logistics" },
-    { name: "Services", path: "/services" },
-  ];
-=======
-const Footer = () => {
 	const menuItems = [
 		{ name: "About", path: "/about" },
 		{ name: "Contact", path: "/contact" },
 		{ name: "Logistics", path: "#" },
 		{ name: "Services", path: "/services" },
 	];
->>>>>>> 6f1a5d5c3a5f88370aaccb950ce93dab61f46245
 
 	return (
 		<footer className="border-b border-gray-400 pt-8 pb-4 text-center my-10">

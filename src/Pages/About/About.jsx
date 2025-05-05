@@ -3,15 +3,15 @@ import { Opportunities } from "../../Components/Shared/Opportunities/Opportuniti
 import { Review } from "../../Components/Shared/Review/Review";
 
 export const About = () => {
-  return (
-    <div>
-      <Hero />
-      <div data-aos="fade-right">
-        <Review />
-      </div>
-      <div data-aos="fade-left">
-        <Opportunities />
-      </div>
-    </div>
-  );
+	return (
+		<div className="page-wrapper">
+			<Hero />
+			<div data-aos="fade-right">
+				<Review />
+			</div>
+			<div data-aos="fade-left">
+				<Opportunities />
+			</div>
+		</div>
+	);
 };
