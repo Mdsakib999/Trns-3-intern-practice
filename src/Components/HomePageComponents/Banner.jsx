@@ -4,10 +4,7 @@ const Banner = () => {
 	const transportModes = ["AIR", "ROAD", "OCEAN", "AIR", "ROAD"];
 
 	return (
-		<div
-			data-aos="zoom-in"
-			className="w-full my-4 sm:my-6 md:my-8 lg:my-10 px-2 sm:px-4"
-		>
+		<div className="w-full my-4 sm:my-6 md:my-8 lg:my-10 px-2 sm:px-4">
 			<div className="relative max-w-7xl mx-auto z-0 overflow-hidden">
 				{/* Heading */}
 				<div className="absolute top-3 left-3 xs:top-4 xs:left-4 sm:top-6 sm:left-6 md:top-8 md:left-8 lg:top-10 lg:left-10 z-10">
