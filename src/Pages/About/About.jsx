@@ -1,8 +1,8 @@
-import Hero from "../../Components/AboutPageComponents/Hero";
-import Opportunities from "../../Components/Shared/Opportunities/Opportunities";
-import Review from "../../Components/Shared/Review/Review";
+import { Hero } from "../../Components/AboutPageComponents/Hero";
+import { Opportunities } from "../../Components/Shared/Opportunities/Opportunities";
+import { Review } from "../../Components/Shared/Review/Review";
 
-function About() {
+export const About = () => {
   return (
     <div>
       <Hero />
@@ -14,5 +14,4 @@ function About() {
       </div>
     </div>
   );
-}
-export default About;
+};

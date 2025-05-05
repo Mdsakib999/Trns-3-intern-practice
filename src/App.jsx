@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
-import Navbar from "./Components/Shared/Navbar/Navbar";
-import Footer from "./Components/Shared/Footer/Footer";
+import { Navbar } from "./Components/Shared/Navbar/Navbar";
+import { Footer } from "./Components/Shared/Footer/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function App() {
+export const App = () => {
   useEffect(() => {
     AOS.init({
       duration: 2000,
@@ -17,7 +17,7 @@ function App() {
   }, []);
 
   return (
-    <div className="container mx-auto mt-7">
+    <div className="mx-auto mt-7 max-w-7xl w-full px-4">
       {/* Nav bar */}
       <Navbar />
 
@@ -30,6 +30,4 @@ function App() {
       <Footer />
     </div>
   );
-}
-
-export default App;
+};

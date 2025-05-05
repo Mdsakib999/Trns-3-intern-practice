@@ -1,7 +1,7 @@
 import logo from "/assets/Logo.png";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+export const Footer = () => {
   const menuItems = [
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
@@ -31,5 +31,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

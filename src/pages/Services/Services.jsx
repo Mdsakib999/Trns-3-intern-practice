@@ -1,9 +1,9 @@
-import OurProcess from "../../Components/ServicePageComponents/OurProcess";
-import Banner from "../../Components/ServicePageComponents/Banner";
-import Opportunities from "../../Components/Shared/Opportunities/Opportunities";
-import Review from "../../Components/Shared/Review/Review";
+import { OurProcess } from "../../Components/ServicePageComponents/OurProcess";
+import { Banner } from "../../Components/ServicePageComponents/Banner";
+import { Opportunities } from "../../Components/Shared/Opportunities/Opportunities";
+import { Review } from "../../Components/Shared/Review/Review";
 
-function Services() {
+export const Services = () => {
   return (
     <div>
       <div data-aos="fade-left">
@@ -20,5 +20,4 @@ function Services() {
       </div>
     </div>
   );
-}
-export default Services;
+};

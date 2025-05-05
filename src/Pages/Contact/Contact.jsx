@@ -1,12 +1,11 @@
-import ContactUS from "../../Components/ContactPageComponents/ContactUS";
-import Location from "../../Components/ContactPageComponents/Location";
+import { ContactUS } from "../../Components/ContactPageComponents/ContactUS";
+import { Location } from "../../Components/ContactPageComponents/Location";
 
-function Contact() {
+export const Contact = () => {
   return (
     <div>
       <ContactUS />
       <Location />
     </div>
   );
-}
-export default Contact;
+};

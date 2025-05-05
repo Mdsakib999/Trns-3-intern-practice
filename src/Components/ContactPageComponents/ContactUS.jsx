@@ -1,8 +1,8 @@
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6";
 import { IoIosSend } from "react-icons/io";
-import Title from "../Shared/Title";
+import { Title } from "../Shared/Title";
 
-function ContactUS() {
+export const ContactUS = () => {
   return (
     <div className="mt-20 px-4 sm:px-8 lg:px-12">
       <div className="py-5">
@@ -72,6 +72,4 @@ function ContactUS() {
       </div>
     </div>
   );
-}
-
-export default ContactUS;
+};

@@ -1,10 +1,10 @@
-import Banner from "../../Components/HomePageComponents/Banner";
-import About from "../../Components/HomePageComponents/About";
-import Services from "../../Components/HomePageComponents/Services";
-import Opportunities from "../../Components/Shared/Opportunities/Opportunities";
-import Review from "../../Components/Shared/Review/Review";
+import { Banner } from "../../Components/HomePageComponents/Banner";
+import { About } from "../../Components/HomePageComponents/About";
+import { Services } from "../../Components/HomePageComponents/Services";
+import { Opportunities } from "../../Components/Shared/Opportunities/Opportunities";
+import { Review } from "../../Components/Shared/Review/Review";
 
-const Home = () => {
+export const Home = () => {
   return (
     <div>
       <Banner />
@@ -19,5 +19,3 @@ const Home = () => {
     </div>
   );
 };
-
-export default Home;

@@ -1,6 +1,6 @@
 import bannerImage from "/assets/cargo.png";
 
-const Banner = () => {
+export const Banner = () => {
   const transportModes = ["AIR", "ROAD", "OCEAN", "AIR", "ROAD"];
 
   return (
@@ -42,5 +42,3 @@ const Banner = () => {
     </div>
   );
 };
-
-export default Banner;

@@ -2,9 +2,9 @@ import { IoShieldCheckmarkOutline } from "react-icons/io5";
 import { TbArrowZigZag } from "react-icons/tb";
 import { CiStar } from "react-icons/ci";
 import service from "/assets/vector1.png";
-import Title from "../Shared/Title";
+import { Title } from "../Shared/Title";
 
-const About = () => {
+export const About = () => {
   return (
     <div className="lg:container mx-auto flex items-center justify-between md:mt-60 lg:mt-20 px-4 lg:px-0">
       {/* Text only */}
@@ -55,5 +55,3 @@ const About = () => {
     </div>
   );
 };
-
-export default About;

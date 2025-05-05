@@ -1,8 +1,7 @@
-import Title from "../Shared/Title";
+import { Title } from "../Shared/Title";
 import ContainerImage from "/assets/Container.png";
 
-function OurProcess() {
-  // Array of process steps for easier mapping
+export const OurProcess = () => {
   const processSteps = [
     {
       number: "01",
@@ -57,6 +56,4 @@ function OurProcess() {
       </div>
     </div>
   );
-}
-
-export default OurProcess;
+};

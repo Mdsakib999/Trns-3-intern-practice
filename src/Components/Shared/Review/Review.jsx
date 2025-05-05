@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState } from "react";
-import Title from "../Title";
+import { Title } from "../Title";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import girl from "/assets/girl.png";
 import boy from "/assets/boy.png";
 
-const Review = () => {
+export const Review = () => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
@@ -156,5 +156,3 @@ const Review = () => {
     </div>
   );
 };
-
-export default Review;

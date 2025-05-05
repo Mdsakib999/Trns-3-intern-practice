@@ -1,6 +1,6 @@
 import darkweb from "/assets/webbg.png";
 
-function Opportunities() {
+export const Opportunities = () => {
   return (
     <div className="relative my-5 sm:my-8 lg:my-10 flex justify-center rounded-[20px] sm:rounded-[30px] lg:rounded-[40px] bg-black overflow-hidden h-[400px] sm:h-[550px] lg:h-[600px] mx-4 sm:mx-6 lg:mx-0">
       {/* Globe/net image */}
@@ -21,6 +21,4 @@ function Opportunities() {
       </div>
     </div>
   );
-}
-
-export default Opportunities;
+};

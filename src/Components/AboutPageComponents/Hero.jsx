@@ -1,7 +1,7 @@
-import Title from "../Shared/Title";
+import { Title } from "../Shared/Title";
 import ContainerIamge from "/assets/wireframe.jpg";
 
-function Hero() {
+export const Hero = () => {
   return (
     <div className="mt-16 sm:mt-20 lg:mt-[100px]">
       <div className="mx-4 sm:mx-6 md:mx-8 lg:mx-10 py-4 sm:py-5">
@@ -91,6 +91,4 @@ function Hero() {
       </div>
     </div>
   );
-}
-
-export default Hero;
+};
