@@ -11,8 +11,9 @@ export const ContactUS = () => {
 
       {/* Header section */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
-        <h1 className="text-3xl sm:text-4xl lg:text-6xl font-semibold leading-snug">
-          Get in touch with us. <br /> We&apos;re here to assist you.
+        <h1 className="text-3xl sm:text-4xl lg:text-6xl font-semibold ">
+          <p>Get in touch with us.</p>
+          <p> We&apos;re here to assist you. </p>
         </h1>
 
         {/* Social icons */}

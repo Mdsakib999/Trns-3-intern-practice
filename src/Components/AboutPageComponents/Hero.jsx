@@ -36,7 +36,11 @@ export const Hero = () => {
       {/* Cards section - responsive grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 p-4 sm:p-6 mt-8 sm:mt-12 lg:mt-16">
         {/* Card 1 */}
-        <div className="relative bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 shadow-sm">
+        <div
+          className="relative bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 shadow-sm"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <div className="absolute -top-3 left-4 bg-orange-500 text-white rounded-md px-3 py-1 text-sm font-semibold shadow-md">
             1.
           </div>
@@ -50,7 +54,11 @@ export const Hero = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="relative bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 shadow-sm">
+        <div
+          className="relative bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 shadow-sm"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div className="absolute -top-3 left-4 bg-orange-500 text-white rounded-md px-3 py-1 text-sm font-semibold shadow-md">
             2.
           </div>
@@ -67,6 +75,7 @@ export const Hero = () => {
         <div
           className="relative bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 shadow-sm"
           data-aos="fade-left"
+          data-aos-duration="3000"
         >
           <div className="absolute -top-3 left-4 bg-orange-500 text-white rounded-md px-3 py-1 text-sm font-semibold shadow-md">
             3.
