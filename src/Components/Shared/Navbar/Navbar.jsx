@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { useState } from "react";
 
-const Navbar = () => {
+export const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const menuItems = [
@@ -125,5 +125,3 @@ const Navbar = () => {
 		</div>
 	);
 };
-
-export default Navbar;
