@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="lg:container mx-auto flex items-center justify-between md:mt-60 lg:mt-20 px-4 lg:px-0">
       {/* Text only */}
-      <div className="w-full lg:w-1/2 sm:px-10 md:px-0" data-aos="fade-left">
+      <div className="w-full lg:w-1/2 sm:px-10 md:px-0">
         <Title title={"ABOUT US"} />
         <h1 className="text-5xl font-semibold mt-4 mb-10">
           <p>Seamless Service</p>
@@ -45,10 +45,7 @@ const About = () => {
         </div>
       </div>
       {/* Image */}
-      <div
-        className="bg-black rounded-3xl hidden lg:block"
-        data-aos="fade-right"
-      >
+      <div className="bg-black rounded-3xl hidden lg:block">
         <img
           src={service}
           alt="Service"
