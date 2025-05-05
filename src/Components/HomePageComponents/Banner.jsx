@@ -5,10 +5,10 @@ export const Banner = () => {
 
   return (
     <div className="w-full my-4 sm:my-6 md:my-8 lg:my-10 px-2 sm:px-4">
-      <div className="relative max-w-7xl mx-auto z-0 overflow-hidden">
+      <div className="relative  z-0 overflow-hidden">
         {/* Heading */}
         <div className="absolute top-3 left-3 xs:top-4 xs:left-4 sm:top-6 sm:left-6 md:top-8 md:left-8 lg:top-10 lg:left-10 z-10">
-          <h1 className="font-extrabold text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl space-y-0 xs:space-y-1 sm:space-y-2">
+          <h1 className="font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl space-y-0 xs:space-y-1 sm:space-y-2">
             <p className="drop-shadow-md">FLEXIBLE</p>
             <p className="drop-shadow-md">LOGISTICS &</p>
             <p className="drop-shadow-md">CARGO SOLUTIONS</p>
