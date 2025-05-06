@@ -5,17 +5,17 @@ import { Opportunities } from "../../Components/Shared/Opportunities/Opportuniti
 import { Review } from "../../Components/Shared/Review/Review";
 
 export const Home = () => {
-  return (
-    <div>
-      <Banner />
-      <About />
-      <div data-aos="fade-right">
-        <Services />
-      </div>
-      <Review />
-      <div data-aos="fade-right">
-        <Opportunities />
-      </div>
-    </div>
-  );
+	return (
+		<div>
+			<Banner />
+			<div data-aos="fade-right">
+				<About />
+			</div>
+			<Services />
+			<Review />
+			<div data-aos="fade-right">
+				<Opportunities />
+			</div>
+		</div>
+	);
 };

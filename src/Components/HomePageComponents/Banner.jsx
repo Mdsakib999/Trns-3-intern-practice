@@ -12,7 +12,7 @@ export const Banner = () => {
 					<h1 className="font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl space-y-0 xs:space-y-1 sm:space-y-2">
 						<p className="drop-shadow-md">FLEXIBLE</p>
 						<p className="drop-shadow-md">LOGISTICS &</p>
-						<p className="drop-shadow-md">CARGO SOLUTIONS</p>
+						<p className="drop-shadow-md text-orange-500">CARGO SOLUTIONS</p>
 					</h1>
 				</div>
 
