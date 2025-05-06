@@ -1,24 +1,26 @@
 import worldbg from "/assets/world-map-bg.png";
-import locationIcon from "/assets/LocationIcon.png";
+import { FaLocationDot } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+import { MdPhone } from "react-icons/md";
 export const Location = () => {
   const Locations = [
     {
       id: 1,
-      name: "North America Headquarters",
-      icon: worldbg,
-      des: "Our central hub for freight operations across the U.S.,Canada, and Mexico, ensuring seamless cross-border logistics.",
+      name: "Fontana Logistik und Spedition GmbH",
+      icon: <FaLocationDot aria-label="Location" />,
+      type: "text",
     },
     {
       id: 2,
-      name: "North America Headquarters",
-      icon: worldbg,
-      des: "Our central hub for freight operations across the U.S.,Canada, and Mexico, ensuring seamless cross-border logistics.",
+      name: "customs@fontanalogistik.de",
+      icon: <MdEmail aria-label="Email" />,
+      type: "email",
     },
     {
       id: 3,
-      name: "North America Headquarters",
-      icon: worldbg,
-      des: "Our central hub for freight operations across the U.S.,Canada, and Mexico, ensuring seamless cross-border logistics.",
+      name: "+494074303440",
+      icon: <MdPhone aria-label="Phone" />,
+      type: "phone",
     },
   ];
   const LocationPin = [
@@ -44,23 +46,38 @@ export const Location = () => {
       <div className="flex flex-col lg:flex-row justify-between py-10 px-4 sm:px-6 lg:px-10 gap-10">
         {/* Text section */}
         <div className="w-full lg:w-1/2">
-          <h1 className="text-2xl sm:text-3xl font-semibold">Location</h1>
-          <div className="mt-10 flex flex-col gap-8">
-            {Locations.map((location) => (
-              <div key={location.id} className="flex gap-4 sm:gap-8">
-                <img
-                  src={locationIcon}
-                  alt=""
-                  className="h-8 w-8 flex-shrink-0"
-                />
-                <div className="flex flex-col gap-2 sm:gap-4 w-full">
-                  <h2 className="text-lg sm:text-xl font-semibold">
+          <h1 className="text-3xl font-semibold">Contact Information</h1>
+          <div className="mt-10 flex flex-col gap-6">
+            {Locations.map((location) => {
+              const isEmail = location.type === "email";
+              const isPhone = location.type === "phone";
+              const linkHref = isEmail
+                ? `mailto:${location.name}`
+                : isPhone
+                ? `tel:${location.name}`
+                : null;
+
+              const Wrapper = linkHref ? "a" : "div";
+
+              return (
+                <Wrapper
+                  key={location.id}
+                  href={linkHref || undefined}
+                  className={`flex items-center gap-4 transition-all duration-300 ${
+                    linkHref ? "hover:scale-105 cursor-pointer" : ""
+                  }`}
+                  target={isEmail ? "_blank" : undefined}
+                  rel={isEmail ? "noopener noreferrer" : undefined}
+                >
+                  <div className="text-xl bg-orange-500 text-white rounded-md w-10 h-10 flex items-center justify-center">
+                    {location.icon}
+                  </div>
+                  <h2 className="text-lg sm:text-xl break-all">
                     {location.name}
                   </h2>
-                  <p className="text-sm text-gray-600">{location.des}</p>
-                </div>
-              </div>
-            ))}
+                </Wrapper>
+              );
+            })}
           </div>
         </div>
 
