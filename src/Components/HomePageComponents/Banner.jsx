@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import bannerImage from "/assets/cargo.png";
+import bannerImage from "/assets/bannerImage.jpg";
 
 export const Banner = () => {
 	const transportModes = ["AIR", "ROAD", "OCEAN", "AIR", "ROAD"];
