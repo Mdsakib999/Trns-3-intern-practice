@@ -1,4 +1,5 @@
 import worldbg from "/assets/world-map-bg.png";
+import locationIcon from "/assets/Location.png";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { MdPhone } from "react-icons/md";
@@ -36,8 +37,8 @@ export const Location = () => {
     },
     {
       id: 3,
-      top: "27%",
-      left: "80%",
+      top: "22%",
+      left: "77%",
     },
   ];
 
@@ -89,17 +90,21 @@ export const Location = () => {
             className="w-full h-auto object-contain"
           />
           {LocationPin.map((pin) => (
-            <img
+            <div
               key={pin.id}
-              src="/public/assets/Location.png"
-              alt="Location Pin"
-              className="absolute w-6 h-6"
+              className="absolute animate-bounce"
               style={{
                 top: pin.top,
                 left: pin.left,
                 transform: "translate(-50%, -100%)",
               }}
-            />
+            >
+              <img
+                src={locationIcon}
+                alt="Location Pin"
+                className="w-3.5 h-3.5 md:w-6 md:h-6"
+              />
+            </div>
           ))}
         </div>
       </div>
