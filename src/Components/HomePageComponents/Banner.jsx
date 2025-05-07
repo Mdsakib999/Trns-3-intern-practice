@@ -8,11 +8,11 @@ export const Banner = () => {
         {/* Heading */}
         <div className="absolute top-3 left-3 xs:top-4 xs:left-4 sm:top-6 sm:left-6 md:top-8 md:left-8 lg:top-10 lg:left-10 z-10">
           <h1 className="font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl space-y-0 xs:space-y-1 sm:space-y-2">
-            <span className="drop-shadow-md block">FLEXIBLE</span>
-            <span className="drop-shadow-md block">LOGISTICS &</span>
-            <span className="drop-shadow-md block text-orange-500">
-              CARGO SOLUTIONS
-            </span>
+            <p className="drop-shadow-md">Flexible Logistik </p>
+            <p className="drop-shadow-md">und Frachtservices, </p>
+            <p className="drop-shadow-md text-orange-500">
+              maßgeschneidert für Ihre Geschäftsziele.
+            </p>
           </h1>
         </div>
         {/* Main Image */}

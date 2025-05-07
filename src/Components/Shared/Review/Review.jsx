@@ -46,15 +46,12 @@ export const Review = () => {
 
   return (
     <div className="py-10 md:py-16 lg:py-20 relative px-4 md:px-8 lg:px-0">
-      <Title title={"CUSTOMER REVIEW"} />
-      <div className="w-full mx-auto md:mx-0 text-center md:text-left lg:mb-20">
-        <h1 className="text-3xl md:text-5xl font-semibold leading-tight mb-6">
-          <span className="block">
-            Here&apos;s the value we&apos;ve brought
-          </span>
-          <span className="block text-primary">to our clients.</span>
-        </h1>
-      </div>
+      <Title title={"Kundenbewertungen"} />
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold mt-3 md:mt-5 mb-6 md:mb-12">
+        <p className="md:w-[80%] lg:w-[70%]">
+          Unser Mehrwert – bestätigt durch unsere Kunden
+        </p>
+      </h1>
 
       <Swiper
         modules={[Navigation]}
@@ -80,8 +77,11 @@ export const Review = () => {
             data-aos-duration="1000"
           >
             <p>
-              Organically grow the holistic world view of disruptive innovation
-              via workplace diversity and empowerment.
+              "Wir haben im Laufe der Jahre mit mehreren Spediteuren gearbeitet,
+              aber ZollTrans hebt sich deutlich ab. Ihr Kundenservice ist
+              unübertroffen und ihre Technologie hält uns bei jedem Schritt
+              informiert.“
+              <br /> Supply Chain Manager, Pharmaindustrie
             </p>
           </div>
         </SwiperSlide>
@@ -105,9 +105,10 @@ export const Review = () => {
             data-aos-duration="2000"
           >
             <p>
-              Leverage agile frameworks to provide a robust synopsis for
-              strategy foster collaborative thinking to further the overall
-              value proposition.
+              ZollTrans war entscheidend für die Optimierung unserer globalen
+              Logistikprozesse. Die Echtzeitverfolgung und die proaktive
+              Kommunikation geben uns volles Vertrauen bei jeder Lieferung.“
+              <br />— Leiter Logistik, Elektronikunternehmen
             </p>
           </div>
         </SwiperSlide>
@@ -127,19 +128,22 @@ export const Review = () => {
         <SwiperSlide>
           <div className="bg-black text-white w-full h-60 p-4 rounded-xl">
             <p>
-              Organically grow the holistic world view of disruptive innovation
-              via workplace diversity and empowerment.
+              ZollTrans hat uns geholfen, in mehreren Märkten effizient zu
+              expandieren. Ihre Fachkompetenz und Flexibilität machen sie zu
+              einem echten strategischen Partner.“ <br />— Leiter Betrieb,
+              Lebensmittel- & Agrarbranche
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="bg-black text-white w-full h-60 p-4 rounded-xl">
-            <p>
-              Organically grow the holistic world view of disruptive innovation
-              via workplace diversity and empowerment.
-            </p>
-          </div>
-        </SwiperSlide>
+
+        {/* <SwiperSlide>
+					<div className="bg-black text-white w-full h-60 p-4 rounded-xl">
+						<p>
+							Organically grow the holistic world view of disruptive innovation
+							via workplace diversity and empowerment.
+						</p>
+					</div>
+				</SwiperSlide> */}
       </Swiper>
 
       {/* Navigation buttons */}
