@@ -11,9 +11,9 @@ export const Hero = () => {
           {/* Left content */}
           <div className="flex flex-col gap-6 sm:gap-10 lg:gap-16 xl:gap-20 w-full lg:w-1/2">
             <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-semibold leading-14">
-              <p>Seamless Service</p>
-              <p>for a Connected</p>
-              <p>World</p>
+              <span className="block">Seamless Service</span>
+              <span className="block">for a Connected</span>
+              <span className="block">World</span>
             </h1>
             <p className="text-xs sm:text-sm opacity-50 max-w-lg">
               Free Download Cargo Crate SVG vector file in monocolor and

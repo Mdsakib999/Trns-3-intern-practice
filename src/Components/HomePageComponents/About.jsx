@@ -11,12 +11,22 @@ export const About = () => {
       <div className="w-full lg:w-1/2 sm:px-10 md:px-0">
         <Title title={"ABOUT US"} />
         <h1 className="text-5xl font-semibold mt-4 mb-10">
-          <p>Mühelose Logistik für eine </p>
-          <p>globalisierte Zukunft.</p>
-
+          <span className="block">Seamless Service</span>
+          <span className="block">for a Connected</span>
+          <span className="block">World</span>
         </h1>
         <p className="text-gray-500">
-        ZollTrans Logistics ist ein führendes globales Logistik- und Speditionsunternehmen, das sich auf Luft-, See- und Straßenfracht sowie umfassende Supply-Chain-Lösungen spezialisiert hat. Mit 18 internationalen Büros und einem Partnernetzwerk in über 100 Ländern bedienen wir Branchen wie Elektronik, Pharma, Automobil, Mode und verderbliche Waren. Mit über vier Jahrzehnten Expertise und modernster Technologie bieten wir Echtzeit-Tracking von Sendungen und einen persönlichen Kundenbetreuer, um einen reibungslosen Service zu gewährleisten. Unser Engagement für Vertrauen, Integrität und Kundenzufriedenheit treibt unsere Mission an, außergewöhnlichen Wert, Zuverlässigkeit und Leistung für Kunden jeder Größe zu liefern.
+          ZollTrans Logistics ist ein führendes globales Logistik- und
+          Speditionsunternehmen, das sich auf Luft-, See- und Straßenfracht
+          sowie umfassende Supply-Chain-Lösungen spezialisiert hat. Mit 18
+          internationalen Büros und einem Partnernetzwerk in über 100 Ländern
+          bedienen wir Branchen wie Elektronik, Pharma, Automobil, Mode und
+          verderbliche Waren. Mit über vier Jahrzehnten Expertise und modernster
+          Technologie bieten wir Echtzeit-Tracking von Sendungen und einen
+          persönlichen Kundenbetreuer, um einen reibungslosen Service zu
+          gewährleisten. Unser Engagement für Vertrauen, Integrität und
+          Kundenzufriedenheit treibt unsere Mission an, außergewöhnlichen Wert,
+          Zuverlässigkeit und Leistung für Kunden jeder Größe zu liefern.
         </p>
         <div className="flex flex-col gap-y-4 mt-10 text-gray-500">
           <p className="flex items-center gap-x-2">

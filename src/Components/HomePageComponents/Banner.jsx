@@ -1,5 +1,4 @@
 import bannerImage from "/assets/bannerImage.jpg";
-
 export const Banner = () => {
   const transportModes = ["AIR", "ROAD", "OCEAN", "AIR", "ROAD"];
 
@@ -9,19 +8,19 @@ export const Banner = () => {
         {/* Heading */}
         <div className="absolute top-3 left-3 xs:top-4 xs:left-4 sm:top-6 sm:left-6 md:top-8 md:left-8 lg:top-10 lg:left-10 z-10">
           <h1 className="font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl space-y-0 xs:space-y-1 sm:space-y-2">
-            <p className="drop-shadow-md">Flexible Logistik </p>
-            <p className="drop-shadow-md">und Frachtservices, </p>
-            <p className="drop-shadow-md text-orange-500">maßgeschneidert für Ihre Geschäftsziele.</p>
+            <span className="drop-shadow-md block">FLEXIBLE</span>
+            <span className="drop-shadow-md block">LOGISTICS &</span>
+            <span className="drop-shadow-md block text-orange-500">
+              CARGO SOLUTIONS
+            </span>
           </h1>
         </div>
-
         {/* Main Image */}
         <img
           src={bannerImage}
           alt="Cargo"
           className="backdrop-blur-3xl w-full h-auto object-cover"
         />
-
         {/* Bottom bar with links */}
         <div className="absolute bottom-0 left-0 right-0">
           <div className="flex flex-wrap items-center justify-center text-white bg-black/80 px-3 sm:px-4 md:px-6 lg:px-8 py-2 sm:py-3 md:py-4 text-sm xs:text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
