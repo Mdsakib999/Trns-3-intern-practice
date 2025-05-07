@@ -11,9 +11,9 @@ export const About = () => {
       <div className="w-full lg:w-1/2 sm:px-10 md:px-0">
         <Title title={"ABOUT US"} />
         <h1 className="text-5xl font-semibold mt-4 mb-10">
-          <p>Seamless Service</p>
-          <p>for a Connected</p>
-          <p>World</p>
+          <span className="block">Seamless Service</span>
+          <span className="block">for a Connected</span>
+          <span className="block">World</span>
         </h1>
         <p className="text-gray-500">
           Free Download Cargo Crate SVG vector file in monocolor and multicolor

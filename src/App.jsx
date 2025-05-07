@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollToTop from "./Utils/ScrollToTop";
 import { FaAngleDoubleUp } from "react-icons/fa";
+import { div } from "framer-motion/client";
 
 export const App = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -32,7 +33,7 @@ export const App = () => {
   };
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 100,
       offset: 500,
       once: false,
     });
@@ -53,7 +54,7 @@ export const App = () => {
       {showScrollButton && (
         <div
           onClick={handleScrollToTop}
-          className="fixed bottom-5 right-5 cursor-pointer bg-primary p-3 rounded-full shadow-lg hover:bg-orange-500 hover:shadow-2xl transition-all duration-300 shadow-orange-500/100  group"
+          className="fixed bottom-5 right-5 cursor-pointer bg-primary p-3 rounded-full shadow-xl bg-black hover:bg-orange-500 shadow-orange-500/100  group"
         >
           <FaAngleDoubleUp className="text-2xl text-orange-500 group-hover:text-white" />
         </div>
