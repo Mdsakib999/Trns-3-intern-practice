@@ -64,7 +64,7 @@ export const ContactUS = () => {
           ></textarea>
         </div>
 
-        <button className="flex items-center bg-orange-500 text-white py-2 px-6 rounded-full space-x-2 hover:bg-orange-600 transition">
+        <button className="flex items-center bg-orange-500 text-white py-2 px-3 rounded-full space-x-2 hover:bg-orange-600 transition shadow-orange-500 shadow-2xl">
           <span>Send Message</span>
           <div className="border rounded-full p-2 bg-white">
             <IoIosSend className="text-orange-500 text-xl" />

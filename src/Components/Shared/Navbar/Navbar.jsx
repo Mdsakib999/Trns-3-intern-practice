@@ -10,7 +10,6 @@ export const Navbar = () => {
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Services", path: "/services" },
-    { name: "FAQ", path: "/faq" },
   ];
 
   const toggleMenu = () => {
@@ -58,7 +57,7 @@ export const Navbar = () => {
 
         {/* Desktop menu */}
         <div className="hidden md:block">
-          <div className="flex items-center gap-6 lg:gap-10 rounded-full border border-gray-400 py-2 pl-4 pr-6 font-semibold">
+          <div className="flex items-center gap-6 lg:gap-10 rounded-full border border-gray-400 py-2 pl-4 pr-6 font-semibold lg:w-xl justify-between">
             {menuItems.map((item) => (
               <NavLink
                 key={item.name}

@@ -34,7 +34,7 @@ export const Hero = () => {
       </div>
 
       {/* Cards section - responsive grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 p-4 sm:p-6 mt-8 sm:mt-12 lg:mt-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:gap-6 gap-12 p-4 sm:p-6 mt-8 sm:mt-12 lg:mt-16">
         {/* Card 1 */}
         <div
           className="relative bg-white border border-gray-200 rounded-2xl p-4 sm:p-6 shadow-sm"

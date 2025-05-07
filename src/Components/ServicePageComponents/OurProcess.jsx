@@ -32,7 +32,7 @@ export const OurProcess = () => {
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-8">
           <div className="w-full lg:w-1/2 flex flex-col gap-8 md:gap-10 lg:gap-14">
             {processSteps.map((step, index) => (
-              <div key={index} className="md:max-w-sm">
+              <div key={index} className="md:max-w-sm" data-aos="fade-left">
                 <h3
                   className={`text-xl md:text-2xl font-bold ${
                     step.active ? "text-orange-500" : "opacity-50"
@@ -50,6 +50,7 @@ export const OurProcess = () => {
               src={ContainerImage}
               alt="Container"
               className="w-full h-auto object-cover rounded-lg"
+              data-aos="fade-up"
             />
           </div>
         </div>

@@ -53,9 +53,9 @@ export const App = () => {
       {showScrollButton && (
         <div
           onClick={handleScrollToTop}
-          className="fixed bottom-5 right-5 cursor-pointer bg-primary p-3 rounded-full shadow-lg hover:bg-info hover:shadow-2xl transition-all duration-300"
+          className="fixed bottom-5 right-5 cursor-pointer bg-primary p-3 rounded-full shadow-lg hover:bg-orange-500 hover:shadow-2xl transition-all duration-300 shadow-orange-500/100  group"
         >
-          <FaAngleDoubleUp className="text-2xl text-orange-500" />
+          <FaAngleDoubleUp className="text-2xl text-orange-500 group-hover:text-white" />
         </div>
       )}
 
