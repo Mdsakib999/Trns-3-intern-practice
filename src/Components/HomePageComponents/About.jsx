@@ -11,9 +11,8 @@ export const About = () => {
       <div className="w-full lg:w-1/2 sm:px-10 md:px-0">
         <Title title={"ABOUT US"} />
         <h1 className="text-5xl font-semibold mt-4 mb-10">
-          <span className="block">Seamless Service</span>
-          <span className="block">for a Connected</span>
-          <span className="block">World</span>
+          <span className="block">Mühelose Logistik für eine</span>
+          <span className="block">globalisierte Zukunft.</span>
         </h1>
         <p className="text-gray-500">
           ZollTrans Logistics ist ein führendes globales Logistik- und

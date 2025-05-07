@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import CourierVector from "/assets/courier.png";
 import ShipVector from "/assets/Ship.png";
 import LuggageVector from "/assets/bus-two.png";
