@@ -21,7 +21,7 @@ export const Opportunities = () => {
           <p>Doloribus libero earum sed consequuntur.</p>
         </div>
         <Link to="/contact">
-          <button className="inline-flex items-center gap-2 rounded-full  px-3 lg:px-2 py-2 text-sm sm:text-base text-black hover:bg-orange-500 hover:text-white mt-8 sm:mt-12 lg:mt-16 bg-white">
+          <button className="inline-flex items-center cursor-pointer gap-4 font-semibold rounded-full  px-3 lg:px-4 py-2 text-sm sm:text-base text-black hover:bg-orange-500 hover:text-white mt-8 sm:mt-12 lg:mt-16 bg-white">
             Contact Now
             <IoCallOutline className="bg-[#ff5e00] rounded-full text-white text-4xl p-2" />
           </button>

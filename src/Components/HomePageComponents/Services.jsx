@@ -17,10 +17,9 @@ export const Services = () => {
 						size="40"
 					/>
 					<div className="bg-white px-10 pt-10 pb-16 rounded-2xl">
-						<h1 className="text-xl font-semibold my-3">Custom Clearance </h1>
+						<h1 className="text-xl font-semibold my-3">Zollabfertigung  </h1>
 						<p className="text-sm text-gray-500">
-							Explore our comprehensive range of chartering services. Explore
-							our comprehensive range of chartering services.{" "}
+						Expertise in Zollabwicklungsdiensten für einen reibungslosen grenzüberschreitenden Transport. Wir kümmern uns um  Dokumentation, Compliance, Zollabfertigung sowie die Berechnung von Zöllen und Steuern, um kostspielige Verzögerungen zu vermeiden.
 						</p>
 					</div>
 				</div>
@@ -30,10 +29,9 @@ export const Services = () => {
 						size="40"
 					/>
 					<div className="bg-white px-10 pt-10 pb-16 rounded-2xl">
-						<h1 className="text-xl font-semibold my-3">Storage & Packaging </h1>
+						<h1 className="text-xl font-semibold my-3">Sichere Lagerung </h1>
 						<p className="text-sm text-gray-500">
-							Explore our comprehensive range of chartering services. Explore
-							our comprehensive range of chartering services.{" "}
+						 Sichere und zuverlässige Lagerlösungen in hochmodernen Einrichtungen. Bestandsmanagement und Lagermöglichkeiten für sowohl kurzfristige als auch langfristige Bedürfnisse.Echtzeit-Überwachung des Bestands und effiziente Raumausnutzung
 						</p>
 					</div>
 				</div>
@@ -43,10 +41,9 @@ export const Services = () => {
 						size="40"
 					/>
 					<div className="bg-white px-10 pt-10 pb-16 rounded-2xl">
-						<h1 className="text-xl font-semibold my-3">Transport Brokerage </h1>
+						<h1 className="text-xl font-semibold my-3">Transportlösungen  </h1>
 						<p className="text-sm text-gray-500">
-							Explore our comprehensive range of chartering services. Explore
-							our comprehensive range of chartering services.{" "}
+						Kostengünstige Transportlösungen über verschiedene Transportarten: Straße, See und Luft.Pünktliche und flexible Transportoptionen, um effiziente Lieferzeiten zu gewährleisten.End-to-End-Tracking Ihrer Sendungen für vollständige Transparenz.
 						</p>
 					</div>
 				</div>
