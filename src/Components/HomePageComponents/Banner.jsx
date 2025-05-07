@@ -9,9 +9,9 @@ export const Banner = () => {
         {/* Heading */}
         <div className="absolute top-3 left-3 xs:top-4 xs:left-4 sm:top-6 sm:left-6 md:top-8 md:left-8 lg:top-10 lg:left-10 z-10">
           <h1 className="font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl space-y-0 xs:space-y-1 sm:space-y-2">
-            <p className="drop-shadow-md">FLEXIBLE</p>
-            <p className="drop-shadow-md">LOGISTICS &</p>
-            <p className="drop-shadow-md text-orange-500">CARGO SOLUTIONS</p>
+            <p className="drop-shadow-md">Flexible Logistik </p>
+            <p className="drop-shadow-md">und Frachtservices, </p>
+            <p className="drop-shadow-md text-orange-500">maßgeschneidert für Ihre Geschäftsziele.</p>
           </h1>
         </div>
 
@@ -28,7 +28,7 @@ export const Banner = () => {
             {transportModes.map((item, index) => (
               <div
                 key={index}
-                className="flex items-center mx-2 sm:mx-3 md:mx-4 my-1 hover:text-orange-500 hover:font-semibold cursor-pointer"
+                className="flex items-center mx-2 sm:mx-3 md:mx-4 my-1 hover:text-orange-500 cursor-pointer"
               >
                 {item}
                 {index < transportModes.length - 1 && (

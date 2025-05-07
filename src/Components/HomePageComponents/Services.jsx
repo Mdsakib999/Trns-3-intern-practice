@@ -5,11 +5,11 @@ import { RiContactsBookUploadLine } from "react-icons/ri";
 export const Services = () => {
 	return (
 		<div className="bg-[#F3F2F5] mt-44 flex flex-col items-center px-5 md:px-10 lg:px-16 py-20">
-			<Title title={"OUR SERVICES"} />
-			<h1 className="text-4xl md:text-5xl text-[#293037] text-center font-semibold mt-3">
-				<p>Everything You Need</p>
-				<p>We Have! </p>
-			</h1>
+			<Title title={"UNSERE DIENSTLEISTUNGEN"} />
+			<div className="text-2xl md:text-5xl text-[#293037] text-center font-semibold  md:py-5 mt-3 lg:w-[80%] lg:leading-14 ">
+				<p>Maßgeschneiderte Lösungen für jede Sendung, wo immer Sie sie benötigen.</p>
+				
+			</div>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-12">
 				<div data-aos="fade-right" className="relative">
 					<FaRegCheckCircle

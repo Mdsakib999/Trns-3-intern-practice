@@ -7,9 +7,9 @@ export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Services", path: "/services" },
+    { name: "STARTSEITE", path: "/" },
+    { name: "Über", path: "/about" },
+    { name: "Dienstleistungen", path: "/services" },
   ];
 
   const toggleMenu = () => {
@@ -79,7 +79,7 @@ export const Navbar = () => {
         <div className="hidden md:block">
           <Link to="/contact">
             <button className="flex items-center gap-x-2 cursor-pointer border p-2 rounded-3xl hover:bg-orange-500 hover:text-white transition-all duration-500 ease-in-out">
-              <span className="font-semibold px-2">Contact Now</span>
+              <span className="font-semibold px-2">Jetzt kontaktieren</span>
               <span className="bg-orange-500 rounded-full p-1 text-white">
                 <MdOutlineArrowOutward />
               </span>
