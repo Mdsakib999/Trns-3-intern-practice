@@ -6,7 +6,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollToTop from "./Utils/ScrollToTop";
 import { FaAngleDoubleUp } from "react-icons/fa";
-import { div } from "framer-motion/client";
 
 export const App = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);

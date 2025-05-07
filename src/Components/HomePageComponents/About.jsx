@@ -16,9 +16,17 @@ export const About = () => {
           <span className="block">World</span>
         </h1>
         <p className="text-gray-500">
-          Free Download Cargo Crate SVG vector file in monocolor and multicolor
-          type for Sketch and Figma from Cargo Crate Vectors svg vector
-          collection. Cargo Crate Vectors SVG vector illustration
+          ZollTrans Logistics ist ein führendes globales Logistik- und
+          Speditionsunternehmen, das sich auf Luft-, See- und Straßenfracht
+          sowie umfassende Supply-Chain-Lösungen spezialisiert hat. Mit 18
+          internationalen Büros und einem Partnernetzwerk in über 100 Ländern
+          bedienen wir Branchen wie Elektronik, Pharma, Automobil, Mode und
+          verderbliche Waren. Mit über vier Jahrzehnten Expertise und modernster
+          Technologie bieten wir Echtzeit-Tracking von Sendungen und einen
+          persönlichen Kundenbetreuer, um einen reibungslosen Service zu
+          gewährleisten. Unser Engagement für Vertrauen, Integrität und
+          Kundenzufriedenheit treibt unsere Mission an, außergewöhnlichen Wert,
+          Zuverlässigkeit und Leistung für Kunden jeder Größe zu liefern.
         </p>
         <div className="flex flex-col gap-y-4 mt-10 text-gray-500">
           <p className="flex items-center gap-x-2">
@@ -26,21 +34,21 @@ export const About = () => {
               className="bg-orange-600 text-white rounded p-0.5"
               size="24"
             />
-            <span>Cargo Crate Vectors SVG vector illustration</span>
+            <span> Streben nach kontinuierlicher Serviceverbesserung</span>
           </p>
           <p className="flex items-center gap-x-2">
             <CiStar
               className="bg-orange-600 text-white rounded p-0.5"
               size="24"
             />
-            <span>Cargo Crate Vectors SVG vector illustration</span>
+            <span>Globale Präsenz mit lokalem Expertenwissen</span>
           </p>
           <p className="flex items-center gap-x-2">
             <IoShieldCheckmarkOutline
               className="bg-orange-600 text-white rounded p-0.5"
               size="24"
             />
-            <span>Cargo Crate Vectors SVG vector illustration</span>
+            <span>Ehrlichkeit, Vertrauen und Integrität prägen uns</span>
           </p>
         </div>
       </div>

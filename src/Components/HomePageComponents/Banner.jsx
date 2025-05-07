@@ -27,7 +27,7 @@ export const Banner = () => {
             {transportModes.map((item, index) => (
               <div
                 key={index}
-                className="flex items-center mx-2 sm:mx-3 md:mx-4 my-1 hover:text-orange-500 hover:font-semibold cursor-pointer"
+                className="flex items-center mx-2 sm:mx-3 md:mx-4 my-1 hover:text-orange-500 cursor-pointer"
               >
                 {item}
                 {index < transportModes.length - 1 && (
