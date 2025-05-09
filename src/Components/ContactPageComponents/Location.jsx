@@ -46,7 +46,7 @@ export const Location = () => {
 
 	return (
 		<div className="bg-[#FAFAFA] mt-20">
-			<div className="flex flex-col lg:flex-row justify-between py-10 px-4 sm:px-6 lg:px-10 gap-10 w-full">
+			<div className="flex flex-col lg:flex-row md:items-center justify-between py-10 px-4 sm:px-6 lg:px-10 gap-10 w-full rounded-md ">
 				{/* Text section */}
 				<div className="w-full lg:w-1/2">
 					<Slide triggerOnce>
@@ -69,7 +69,7 @@ export const Location = () => {
 											key={location.id}
 											href={linkHref || undefined}
 											className={`flex items-center gap-4 transition-all duration-300 ${
-												linkHref ? "hover:scale-105 cursor-pointer" : ""
+												linkHref ? " cursor-pointer" : ""
 											}`}
 											target={isEmail ? "_blank" : undefined}
 											rel={isEmail ? "noopener noreferrer" : undefined}

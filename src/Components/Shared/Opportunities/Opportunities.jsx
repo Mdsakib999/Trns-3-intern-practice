@@ -14,14 +14,12 @@ export const Opportunities = () => {
 				/>
 				{/* Content */}
 				<div className="z-20 text-center mt-10 sm:mt-16 lg:mt-20 text-white px-4 sm:px-6">
-					<h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold">
-						Tap into a World of <br className="hidden sm:block" />{" "}
-						Opportunities.
+					<h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold lg:w-[80%] mx-auto lg:leading-16">
+          Wir liefern mehr als nur Fracht – 
+          wir liefern Vertrauen
 					</h2>
-					<div className="text-sm opacity-50 text-white mt-3 lg:mt-10 flex items-center justify-center flex-col">
-						<p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-						<p> Cumque, est quos quas doloremque libero ipsam.</p>
-						<p>Doloribus libero earum sed consequuntur.</p>
+					<div className="text-sm opacity-50 text-white mt-5 md:mt-10 flex items-center justify-center flex-col lg:w-[70%] mx-auto">
+          Entdecken Sie nahtlose globale Logistiklösungen, die auf Ihr Unternehmen zugeschnitten sind. Mit Fortana Logistics wird jedes Ziel erreichbar – zuverlässig, effizient und mit Sorgfalt.
 					</div>
 					<Link to="/contact">
 						<button className="inline-flex items-center cursor-pointer gap-4 font-semibold rounded-full  px-3 lg:px-4 py-2 text-sm sm:text-base text-black hover:bg-orange-500 hover:text-white mt-8 sm:mt-12 lg:mt-16 bg-white">
