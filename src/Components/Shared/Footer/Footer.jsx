@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
 	const menuItems = [
-		{ name: "About", path: "/about" },
-		{ name: "Contact", path: "/contact" },
-		{ name: "Logistics", path: "#" },
-		{ name: "Services", path: "/services" },
+		{ name: "Über", path: "/about" },
+		{ name: "Kontakt", path: "/contact" },
+		{ name: "Impressum & Datenschutz", path: "/termscondition" },
+		{ name: "Dienstleistungen", path: "/services" },
 	];
 
 	return (
