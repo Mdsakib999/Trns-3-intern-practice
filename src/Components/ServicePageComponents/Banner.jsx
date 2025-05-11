@@ -13,7 +13,7 @@ export const Banner = () => {
       {/* Left Heading - Vertically centered, full width on mobile */}
       <div className="flex items-center justify-center lg:justify-start col-span-1 sm:col-span-2 lg:col-span-1 mb-4 sm:mb-0 h-[180px] sm:h-[212px]">
         <h2 className="text-2xl sm:text-3xl font-semibold leading-8">
-          Comprehensive logistics solutions tailored to your need
+        Umfassende Logistiklösungen, maßgeschneidert für Ihren Bedarf
         </h2>
       </div>
 
@@ -59,10 +59,10 @@ export const Banner = () => {
       <Zoom>
         <div className="rounded-[20px] bg-[#F5F5F5] p-6 flex flex-col items-center justify-center text-center h-[180px] sm:h-[212px] w-full md:w-60">
           <p className="text-[14px] text-black leading-[20px]">
-            <strong>Book</strong> a consultation with our logistics specialists.
+            <strong>Buchen</strong> Sie ein Beratungsgespräch mit unseren Logistikspezialisten.
           </p>
           <button className="text-center mt-4 bg-[#FF5C00] text-white font-medium px-3 py-2 rounded-full flex items-center gap-2">
-            Contact
+            Kontaktieren
             <IoCallOutline className=" text-xl" />
           </button>
         </div>
